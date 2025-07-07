@@ -327,7 +327,7 @@ const init = {
       INSERT INTO setting (
         register, receive, add_email, many_email, title, auto_refresh_time, register_verify, add_email_verify
       )
-      SELECT 0, 0, 0, 1, 'Cloud 邮箱', 0, 1, 1
+      SELECT 0, 0, 0, 1, 'HarryReid 邮箱', 0, 1, 1
       WHERE NOT EXISTS (SELECT 1 FROM setting)
     `).run();
 	},
