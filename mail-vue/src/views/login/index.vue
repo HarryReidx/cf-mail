@@ -10,7 +10,7 @@
     <div v-else :style="background"></div>
     <div class="form-wrapper">
         <div class="container">
-          <span class="form-title">{{settingStore.settings.title}}</span>
+          <span class="form-title">HarryReidのMail</span>
           <span class="form-desc" v-if="show === 'login'">请输入账号信息以开始使用邮箱系统</span>
           <span class="form-desc" v-else>请输入账号密码以开始注册邮箱系统</span>
           <div v-if="show === 'login'">

@@ -254,13 +254,13 @@
               </div>
               <div class="concerning-item">
                 <span>交流:</span>
-                <el-button @click="jump('https://t.me/cloud_mail_tg')">
+                <el-button @click="jump('https://reid.100861.xyz')">
                   telegram
                   <template #icon>
                     <Icon icon="logos:telegram" width="30" height="30"/>
                   </template>
                 </el-button>
-                <el-button @click="jump('https://github.com/eoao/cloud-mail')">
+                <el-button @click="jump('https://reid.100861.xyz')">
                   github
                   <template #icon>
                     <Icon icon="codicon:github-inverted" width="22" height="22" />
